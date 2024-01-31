@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'http://localhost:5173/',
+  homepage: 'https://portfolio-mah.netlify.app/',
   title: 'Mah.',
 }
 
@@ -20,12 +20,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Citas Vet',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Aplicacion para Gestionar el alta de unos pacientes en un Veterinaria',
+    stack: ['React', 'TailwindCSS', 'Vite'],
+    sourceCode: 'https://github.com/Saitamah07/citas_react_vite',
+    livePreview: 'https://citas-vet-react-shm.netlify.app/',
   },
   {
     name: 'Project 2',
