@@ -1,0 +1,145 @@
+:root{
+  --title1: #2d2e32;
+  --title2: #2978b5;
+  --subtitle: #555;
+  --subtitle2: #767676;
+  --bg-color1:#f9f9f9;
+  --bg-color2: #fff;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.app {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: var(--subtitle2);
+  background-color: var(--bg-color2)
+}
+
+main {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 5em;
+  
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: var(--title2);
+  padding: 0 0 0.3em 0;
+  position: relative;
+}
+
+.link:hover {
+  color: var(--title2);
+}
+
+.link::before {
+  content: ' ';
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--title2);
+  transition: width 0.2s ease-in;
+}
+
+.link:hover::before,
+.link:focus::before {
+  width: 100%;
+}
+
+.link--nav{
+  color: var(--title1);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.link--icon {
+  color: var(--title1);
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn--outline {
+  color: var(--title1);
+  border: 2px solid var(--title1);
+  border-radius: 1em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn--outline:hover,
+.btn--outline:focus {
+  color: var(--bg-color1);
+}
+
+.btn--outline::before {
+  content: '';
+  position: absolute;
+  background-color: var(--title1);
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: right 0.2 ease-in-out;
+}
+
+.btn--outline:hover::before,
+.btn--outline:focus::before {
+  right: 0;
+}
+
+.btn--plain {
+  text-transform: initial;
+  background-color: var(--bg-color2);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  border: 0;
+}
+
+.btn--plain:hover {
+  transform: translateY(-4px);
+}
+
+.btn--icon {
+  padding: 0;
+}
+
+.btn--icon:hover,
+.btn--icon:focus {
+  color: var(--title2);
+}
+
+.btn--icon:active{
+  transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+  .section {
+    margin-top: 4em;
+  }
+}
