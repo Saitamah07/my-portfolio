@@ -94,7 +94,7 @@ main {
 
 .btn--outline:hover,
 .btn--outline:focus {
-  color: var(--bg-color1);
+  background-color:  var(--title2);
 }
 
 .btn--outline::before {
@@ -105,13 +105,14 @@ main {
   bottom: 0;
   left: 0;
   top: 0;
-  z-index: 1;
-  transition: right 0.2 ease-in-out;
+  z-index: -1;
+  transition: transform 0.2 ease-in-out;
+  transform: translateX(100%);
 }
 
 .btn--outline:hover::before,
 .btn--outline:focus::before {
-  right: 0;
+  transform: translateX(0);
 }
 
 .btn--plain {
