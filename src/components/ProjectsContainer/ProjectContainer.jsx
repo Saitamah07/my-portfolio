@@ -4,14 +4,16 @@ import { Launch } from '@mui/icons-material';
 import './projectContainer.css';
 
 const ProjectContainer = ({ project }) => {
+	const { name, description, stack, sourceCode, livePreview } = project;
+
 	return (
 		<div className='project'>
-			<h3>{project.name}</h3>
+			<h3>{name}</h3>
 
-			<p className='project__description'>{project.description}</p>
-			{project.stack && (
+			<p className='project__description'>{description}</p>
+			{stack && (
 				<ul className='project__stack'>
-					{project.stack.map((item) => (
+					{stack.map((item) => (
 						<li key={uniqid()} className='project__stack-item'>
 							{item}
 						</li>
@@ -19,9 +21,9 @@ const ProjectContainer = ({ project }) => {
 				</ul>
 			)}
 
-			{project.sourceCode && (
+			{sourceCode && (
 				<a
-					href={project.sourceCode}
+					href={sourceCode}
 					aria-label='source code'
 					className='link link--icon'
 				>
@@ -29,9 +31,9 @@ const ProjectContainer = ({ project }) => {
 				</a>
 			)}
 
-			{project.livePreview && (
+			{livePreview && (
 				<a
-					href={project.livePreview}
+					href={livePreview}
 					aria-label='live preview'
 					className='link link--icon'
 				>

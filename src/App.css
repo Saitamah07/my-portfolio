@@ -55,7 +55,7 @@ main {
   position: absolute;
   bottom: 0;
   background-color: var(--title2);
-  transition: width 0.2s ease-in;
+  transition: width 0.3s ease-in;
 }
 
 .link:hover::before,

@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matias Alvarez',
   role: 'Front End Developer',
-  description: "Soy un desarrollador frontend junior autodidacta con un enfoque especializado en React. Mi pasión por la creación de interfaces de usuario atractivas me ha llevado a aprender continuamente y buscar oportunidades para aplicar mis conocimientos en entornos profesionales.",
+  description: "Soy Ingeniero De Software con un enfoque especializado en React. Mi pasión por la creación de interfaces de usuario atractivas me ha llevado a aprender continuamente y buscar oportunidades para aplicar mis conocimientos en entornos profesionales.",
   resume: 'Matias',
   social: {
     linkedin: 'https://www.linkedin.com/in/matiasah07/',
@@ -17,8 +17,6 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Citas Vet',
     description:
