@@ -22,7 +22,7 @@ const Navbar = () => {
 							onClick={toggleNavList}
 							className='link link--nav'
 						>
-							Projects
+							Proyectos
 						</a>
 					</li>
 				) : null}
@@ -34,7 +34,7 @@ const Navbar = () => {
 							onClick={toggleNavList}
 							className='link link--nav'
 						>
-							Skills
+							Habilidades
 						</a>
 					</li>
 				) : null}
@@ -46,7 +46,7 @@ const Navbar = () => {
 							onClick={toggleNavList}
 							className='link link--nav'
 						>
-							Contact
+							Contacto
 						</a>
 					</li>
 				) : null}

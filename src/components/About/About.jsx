@@ -1,6 +1,7 @@
 import { GitHub } from '@mui/icons-material';
 import { LinkedIn } from '@mui/icons-material';
 import { about } from '../../portfolio';
+
 import './about.css';
 
 function About() {
@@ -14,13 +15,19 @@ function About() {
 				</h1>
 			)}
 
-			{role && <h2 className='about__role'>A {role}</h2>}
+			{role && <h2 className='about__role'> {role}</h2>}
 			<p className='about__desc'>{description && description}</p>
 
 			<div className='about__contact center'>
 				{resume && (
-					<a href={resume} type='button' className='btn btn--outline'>
-						<span>Resume</span>
+					<a
+						href={resume}
+						type='button'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='btn btn--outline'
+					>
+						<span>CV</span>
 					</a>
 				)}
 
