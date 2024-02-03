@@ -18,19 +18,19 @@ const about = {
 
 const projects = [
   {
-    name: 'Citas Vet',
+    name: 'Todo App',
     description:
-      'Aplicacion para Gestionar el alta de unos pacientes en un Veterinaria',
+      'Aplicación ToDo con React para una experiencia de usuario fluida. Permite gestionar tareas eficientemente, destacando la integración de localStorage para persistencia de listas de tareas incluso después de cerrar la aplicación',
     stack: ['React','TailwindCSS', 'Vite'],
-    sourceCode: 'https://github.com/Saitamah07/citas_react_vite',
-    livePreview: 'https://citas-vet-react-shm.netlify.app/',
+    sourceCode: 'https://todo-app-mah.netlify.app/',
+    livePreview: 'https://github.com/Saitamah07/todo-app',
   },
   {
-    name: '',
-    description:'',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Cotizador De Criptomonedas',
+    description:'una aplicación dinámica desarrollada en React con Tailwind CSS, proporcionando precios en tiempo real de monedas de Bitcoin a través de una AP',
+    stack: ['React', 'TailwindCSS', 'API'],
+    sourceCode: 'https://criptoprices-mah.netlify.app/',
+    livePreview: 'https://github.com/Saitamah07/cripto-prices',
   },
   {
     name: 'Project 3',
