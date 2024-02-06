@@ -33,11 +33,11 @@ const projects = [
     livePreview: 'https://github.com/Saitamah07/cripto-prices',
   },
   {
-    name: 'Project 3',
-    description:'',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Resumidor De Texto Uzando OpenAI GPT-4',
+    description:' Resumidor de Texto potenciado por OpenAI GPT-4, que utiliza las tecnologías como React y Redux para una gestión eficiente del estado de la aplicación. La interfaz de usuario moderna y atractiva se construyó con Tailwind CSS, garantizando un diseño elegante y altamente responsivo',
+    stack: ['React', 'Redux', 'TailwindCSS'],
+    sourceCode: 'https://github.com/Saitamah07/AI_Summarize',
+    livePreview: 'https://ai-summarizer-mah.netlify.app/',
   },
 ]
 
