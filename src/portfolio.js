@@ -51,6 +51,8 @@ const skills = [
 	'CSS',
 	'JavaScript',
 	'React',
+	'Node.js',
+	'Vuejs',
 	'TailwindCSS',
 	'Git',
 ];
