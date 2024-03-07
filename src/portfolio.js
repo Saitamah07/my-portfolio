@@ -9,7 +9,7 @@ const about = {
 	name: 'Matias Alvarez',
 	role: 'Desarrollador Frontend',
 	description:
-		'Soy un entusiasta ingeniero de software con una profunda pasión por el desarrollo web. Aunque mi trayectoria profesional está en sus inicios, mi dedicación y habilidades técnicas son evidentes en cada línea de código que escribo. Mi enfoque se centra en aprender y crecer constantemente. He dedicado tiempo a proyectos personales donde he explorado diversas tecnologías y metodologías de desarrollo web. Mi amor por la programación y el diseño se refleja en cada proyecto que he emprendido hasta ahora',
+		'Soy un apasionado por el desarrollo web y me he centrado en aprender las bases del desarrollo frontend. Aunque no tengo mucha experiencia, estoy enfocado en crecer y mejorar mis habilidades. Mi interés principal está en React, una biblioteca JavaScript para construir interfaces de usuario basadas en componentes. Además, he estado explorando Tailwind CSS, un marco de diseño que me permite crear estilos de manera eficiente utilizando clases de utilidad',
 	resume: './assets/CV_Matias.pdf',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/matiasah07/',
