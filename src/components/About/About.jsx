@@ -19,18 +19,6 @@ function About() {
 			<p className='about__desc'>{description && description}</p>
 
 			<div className='about__contact center'>
-				{resume && (
-					<a
-						href={resume}
-						type='button'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn btn--outline'
-					>
-						<span>CV</span>
-					</a>
-				)}
-
 				{social && (
 					<>
 						{social.github && (

@@ -29,8 +29,8 @@ const projects = [
     name: 'Cotizador De Criptomonedas',
     description:'una aplicación dinámica desarrollada en React con Tailwind CSS, proporcionando precios en tiempo real de monedas de Bitcoin a través de una AP',
     stack: ['React', 'TailwindCSS', 'API'],
-    sourceCode: 'https://criptoprices-mah.netlify.app/',
-    livePreview: 'https://github.com/Saitamah07/cripto-prices',
+    sourceCode: 'https://github.com/Saitamah07/cripto-prices',
+    livePreview: 'https://criptoprices-mah.netlify.app',
   },
   {
     name: 'Resumidor De Texto Uzando OpenAI GPT-4',
