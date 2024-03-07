@@ -39,8 +39,8 @@ const projects = [
 		description:
 			' Este proyecto fue creado utilizando React y TailwindCSS. Implementa un tablero Kanban interactivo que te permite organizar tus tareas y proyectos visualmente. Algunas de las características clave incluyen',
 		stack: ['React', 'Redux', 'TailwindCSS'],
-		sourceCode: 'https://notio-kanban.netlify.app/',
-		livePreview: 'https://github.com/Saitamah07/kanban-board',
+		sourceCode: 'https://github.com/Saitamah07/kanban-board',
+		livePreview: 'https://notio-kanban.netlify.app/',
 	},
 ];
 
