@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matias Alvarez',
-  role: 'Ingeniero De Software',
+  role: 'Desarrollador Frontend',
   description: "Soy un entusiasta ingeniero de software con una profunda pasión por el desarrollo web. Aunque mi trayectoria profesional está en sus inicios, mi dedicación y habilidades técnicas son evidentes en cada línea de código que escribo. Mi enfoque se centra en aprender y crecer constantemente. He dedicado tiempo a proyectos personales donde he explorado diversas tecnologías y metodologías de desarrollo web. Mi amor por la programación y el diseño se refleja en cada proyecto que he emprendido hasta ahora",
   resume: './assets/CV_Matias.pdf',
   social: {
